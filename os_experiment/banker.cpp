@@ -112,7 +112,7 @@ int Safe() {
                 	Need_copy[i][jj] = 0;
 				}
     			for (jj = 0; jj < RNum; jj++){
-                    Available_copy1[i+1][jj]= Available_copy[jj];
+                    Available_copy1[i][jj]= Available_copy[jj];
                 }
 
         	
